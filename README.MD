@@ -11,5 +11,5 @@
 			"attr":   ["funnel"],
 		},
    ```
-3. [Добавить ключ,](https://login.tailscale.com/admin/settings/keys), прикрепив тег internet.
+3. [Добавить ключ,](https://login.tailscale.com/admin/settings/keys), прикрепив тег internet → вставить в поле TS_AUTHKEY= внутри docker-compose.yml
 4. В /ts-config/serve.json выбрать, будет ли включен Funnel (в конфиге выключен).
